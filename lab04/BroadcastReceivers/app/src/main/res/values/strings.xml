@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Broadcast Receivers</string>
+    <string name="batt_status_notif_channel">Battery Status Notifications Channel</string>
+    <string name="batt_status_notif_channel_id">BattStatusChannel</string>
+    <string name="batt_status_notif_channel_desc">Channel for displaying notifications about the battery status</string>
+</resources>
