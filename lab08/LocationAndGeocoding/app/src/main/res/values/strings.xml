@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LocationAndGeocoding</string>
+    <string name="title_activity_show_location">LocationAndGeocoding</string>
+    <string name="textAddrNameDefault">Name</string>
+    <string name="textAddrLine1Default">Address Line 1</string>
+    <string name="textAddrLine2Default">Address Line 2</string>
+    <string name="textAddrCityDefault">City</string>
+    <string name="textAddrCountyDefault">County</string>
+    <string name="textAddrProvinceDefault">Province</string>
+    <string name="textAddrCountryDefault">Country</string>
+    <string name="textAddrPostalCodeDefault">Postal Code</string>
+    <string name="textAddrPhoneNumDefault">Phone #</string>
+    <string name="textAddrUrlDefault">Url</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Storage</string>
+    <string name="action_settings">Settings</string>
+    <string name="firstNameLabelText">First Name</string>
+    <string name="lastNameLabelText">Last Name</string>
+    <string name="phoneNumberLabelText">Phone Number</string>
+    <string name="cancelButtonText">Cancel</string>
+    <string name="addButtonText">Add</string>
+</resources>

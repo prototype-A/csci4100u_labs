@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ShowAddressFragment">
+
+    <TextView
+        android:id="@+id/textAddrName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="24dp"
+        android:text="@string/textAddrNameDefault"
+        android:textSize="14sp"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/textAddressLine1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="24dp"
+        android:text="@string/textAddrLine1Default"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@+id/textAddrName"/>
+
+    <TextView
+        android:id="@+id/textAddressLine2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="24dp"
+        android:text="@string/textAddrLine2Default"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@+id/textAddressLine1" />
+
+    <TextView
+        android:id="@+id/textLocality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="24dp"
+        android:text="@string/textAddrCityDefault"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@+id/textAddressLine2" />
+
+    <TextView
+        android:id="@+id/textSubAdminArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="24dp"
+        android:text="@string/textAddrCountyDefault"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@+id/textLocality" />
+
+    <TextView
+        android:id="@+id/textAdminArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="24dp"
+        android:text="@string/textAddrProvinceDefault"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@+id/textSubAdminArea" />
+
+    <TextView
+        android:id="@+id/textCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="24dp"
+        android:text="@string/textAddrCountryDefault"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@+id/textAdminArea" />
+
+    <TextView
+        android:id="@+id/textPostalCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="24dp"
+        android:text="@string/textAddrPostalCodeDefault"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@+id/textCountry" />
+
+    <TextView
+        android:id="@+id/textPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="24dp"
+        android:text="@string/textAddrPhoneNumDefault"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@+id/textPostalCode" />
+
+    <TextView
+        android:id="@+id/textUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="24dp"
+        android:text="@string/textAddrUrlDefault"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@+id/textPhoneNumber" />
+
+</android.support.constraint.ConstraintLayout>
